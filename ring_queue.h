@@ -1,7 +1,6 @@
 /*
     ring_queue.cpp
-    MANSEDS Self-Landing Rocket code
-    Contributors: Alex Koch
+    Alex Koch 2018
     First-in-first-out ring queue
 */
 

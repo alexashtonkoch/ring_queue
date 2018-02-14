@@ -8,7 +8,7 @@ template<typename T> class ring_queue
 {
 private:
     T * container_;
-    uint32_t head_, tail_, length_, increment_, shift_; // Check if length can be handled by considering the difference between the head and tail
+    uint32_t head_, tail_, length_, increment_, shift_; 
 public:
     ring_queue(unsigned const bits): head_{ 0 }, tail_{ 0 }, length_{ 0 }, shift_{ uint32_t(32 - bits) }, 
                                      increment_{ uint32_t( pow(2, 32) / pow(2, bits) ) }, 
